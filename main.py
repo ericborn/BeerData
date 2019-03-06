@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Mar  5 19:24:22 2019
+Created on Tue Mar  5 21:05:15 2019
 
 @author: Eric Born
 """
@@ -88,8 +88,11 @@ I then wrote the dataframe to a new file called beer_reviews_clean.csv
 skipping the index column that the dataframe created.
 '''
 try:
-    df = pd.read_csv('beer_reviews.csv')
-    #df.loc[41385]
+    #Use this to download the file striaght into a dataframe, make take awhile depending your on internet
+    df = pd.read_csv('https://query.data.world/s/5t23kwu7xo2cpqqvmzeqon6un2mbqj')
+    #uncomment if you have the file local
+    #df = pd.read_csv('beer_reviews.csv')
+    
     df.fillna(0)
     df.to_csv('beer_reviews_clean.csv', index=False)
 except (IOError) as dfError:
