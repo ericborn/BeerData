@@ -1,7 +1,7 @@
 # BeerData
 Learning PostgreSQL by importing a beer review data set with Python
 
-I wrote the following code while learning PostgreSQL and psycopg2, which is the Python database adapter.
+I wrote the following code while learning PostgreSQL and psycopg2, which is the Python database adapter for Postgre.
 The code creates a database and table in Postgres using the psycopg2 package,
 Reads and clean a csv file using pandas and finally inserts the clean data into the database using Python with open.
 
