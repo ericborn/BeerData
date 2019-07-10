@@ -9,7 +9,7 @@ The dataset I used is comprised of beer reviews from a website called Beeradvoca
 and has more than ~1.5 million rows. The original dataset file is 171MB, much too large to include on git, so I built the program 
 to download the file straight into a dataframe from the URL, but this will take some time depending on your internet connection.
 If you do not want to download the full file I have included a condensed version with less rows that is zipped. 
-You can also download the full here: https://query.data.world/s/rn36f5pg4uccomqwkn6ovfsrbgw37i which will allow you to use the full set without having keep downloading it.
+You can also download the full here: https://query.data.world/s/rn36f5pg4uccomqwkn6ovfsrbgw37i which will allow you to use the full set without having to keep downloading it.
 
 You will need PostgreSQL installed either locally or on a server prior to utilizing this program. 
 I used a local instance and the default account, postgres, to make connections with a password of 1234. 
